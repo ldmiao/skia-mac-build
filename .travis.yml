@@ -8,4 +8,5 @@ notifications:
     on_failure: always # default: always
 
 script:
+    - chmod +x ./build.sh
     - ./build.sh
