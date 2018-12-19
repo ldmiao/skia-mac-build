@@ -8,4 +8,4 @@ notifications:
     on_failure: always # default: always
 
 script:
-    - ./ci-build/build.sh
+    - ./build.sh
